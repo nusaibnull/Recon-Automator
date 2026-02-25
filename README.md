@@ -30,12 +30,14 @@ Before running the script, ensure you have the following tools installed and acc
 ## 💻 Installation & Usage
 
 **1. Clone the repository:**
-```bash
+
 git clone https://github.com/nusaibnull/Recon-Automator
 ### 💻 Execution
 
 chmod +x recon.sh
 ./recon.sh target.com
+
+** Map
 ```text
 target.com_recon/
 ├── passive_subs.txt          # All passively discovered subdomains
