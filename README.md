@@ -37,16 +37,3 @@ git clone https://github.com/nusaibnull/Recon-Automator
 ```bash
 chmod +x recon.sh
 ./recon.sh target.com
-
-target.com_recon/
-├── passive_subs.txt          # All passively discovered subdomains
-├── resolved_subs.txt         # Only ALIVE subdomains
-├── open_ports.txt            # Live ports discovered by Naabu
-├── nmap_scan_results.txt     # Deep service scan results
-├── live_webapps.txt          # Live HTTP/HTTPS web applications
-├── potential_takeovers.txt   # Subdomain takeover targets
-├── all_urls.txt              # Deep crawl results by Katana
-├── js_files.txt              # Extracted JavaScript files
-├── sensitive_files.txt       # High-value files (.bak, .sql, .env)
-├── clean_urls.txt            # De-cluttered URLs (Uro)
-└── reflected_params_xss.txt  # Parameters ready for XSS testing
